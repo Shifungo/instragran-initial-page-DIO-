@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+body{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#f9f9f9;
+   
+
+}
+main{
+    width: 100%;
+    height: 657px;
+    margin: 0;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    
+}
+footer{
+    margin: auto;
+    color: #808080;
+    font-weight: 400;
+    
+}
+.insta-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 935px;
+    margin: auto;
+    margin-top: 32px;
+    padding-bottom: 32px;
+    
+    
+}
+.insta-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin-right: 32px;
+}
+.insta-continue {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 348px;
+    height: 331px;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    border: 1px solid lightgray;
+    margin: 0;
+
+    
+}
+.group-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    margin-top: 12px;
+    height: 641px;
+}
+.group:nth-child(1){
+    min-height: 19rem;
+}
+.insta-logo{
+    width: 175;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.profile-photo{
+    height: 102px;
+    width: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.profile-photo img{
+    height: fit-content;
+    width: 100%;
+}
+.instagram-login{
+    display: flex;
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 60%;
+    justify-content: center;
+}
+.logout{
+    display: flex;
+    min-width: 278px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px ;
+}
+.logout p{
+    margin-right: 8px;
+    
+}
+.logout a{
+    text-decoration: none;
+    color: #28b1ef;
+}
+.links-footer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.links-footer a{
+    color:#808080;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.footer a {
+    margin-top: 10px;
+    resize: none;
+}
+.idioma{
+    display: flex;
+    align-items: stretch;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+
+@media (max-width: 935px) {
+   .insta-phone{
+       display: none;
+   }
+}
